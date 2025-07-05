@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MatrixAI</title>
+        <link rel="stylesheet" href="matrixai-styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <script src="matrixai-javascript.js" defer></script>
+    </head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="logo">
+                <h1>MatrixAI</h1>
+            </div>
+            <div class="sidebar-menu">
+                <div class="menu-item active">
+                    <i class="fas fa-comment-alt"></i>
+                    <span>Chat</span>
+                </div>
+                <div class="menu-item">
+                    <i class="fas fa-history"></i>
+                    <span>History</span>
+                </div>
+                <div class="menu-item">
+                    <i class="fas fa-cog"></i>
+                    <span>Settings</span>
+                </div>
+            </div>
+            <div class="new-chat">
+                <button id="new-chat-btn">
+                    <i class="fas fa-plus"></i>
+                    New Chat
+                </button>
+            </div>
+            <div class="user-profile">
+                <div class="profile-pic">
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="user-info">
+                    <span class="username">Guest User</span>
+                    <span class="status">Online</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Chat Header -->
+            <div class="chat-header">
+                <h2>MatrixAI Assistant</h2>
+                <div class="header-actions">
+                    <button class="clear-chat"><i class="fas fa-trash"></i></button>
+                    <button class="export-chat"><i class="fas fa-download"></i></button>
+                </div>
+            </div>
+
+            <!-- Chat Window -->
+            <div class="chat-window" id="chat-window">
+                <!-- Welcome Message -->
+                <div class="message bot-message">
+                    <div class="message-avatar">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="message-content">
+                        <div class="message-text">
+                            <p>Hello! I'm MatrixAI, your advanced AI assistant. How can I help you today?</p>
+                        </div>
+                        <div class="message-time">Just now</div>
+                    </div>
+                </div>
+                
+                <!-- Messages will be added here dynamically -->
+            </div>
+
+            <!-- Input Area -->
+            <div class="input-area">
+                <div class="input-container">
+                    <textarea id="user-input" placeholder="Ask me anything..."></textarea>
+                    <div class="input-actions">
+                        <button class="attach-btn"><i class="fas fa-paperclip"></i></button>
+                        <button class="send-btn" id="send-btn"><i class="fas fa-paper-plane"></i></button>
+                    </div>
+                </div>
+                <div class="input-info">
+                    <p>MatrixAI may provide inaccurate information. Verify important details.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Info Panel (collapsible) -->
+        <div class="info-panel" id="info-panel">
+            <div class="panel-header">
+                <h3>Conversation Info</h3>
+                <button class="close-panel" id="close-panel"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="panel-content">
+                <div class="info-section">
+                    <h4>About MatrixAI</h4>
+                    <p>MatrixAI is a next-generation AI chatbot designed to provide precise, human-like, and contextually aware responses.</p>
+                </div>
+                <div class="info-section">
+                    <h4>Capabilities</h4>
+                    <ul>
+                        <li>Natural language understanding</li>
+                        <li>Context-aware conversations</li>
+                        <li>Multi-domain knowledge</li>
+                        <li>Real-time responses</li>
+                    </ul>
+                </div>
+                <div class="info-section">
+                    <h4>Development Team</h4>
+                    <p>Team MatrixAI</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="matrixai-javascript.js"></script>
+</body>
+</html>

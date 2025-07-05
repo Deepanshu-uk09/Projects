@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">MatrixAI System Architecture</text>
+  
+  <!-- Frontend Box -->
+  <rect x="50" y="80" width="200" height="160" fill="#e3f2fd" stroke="#2196f3" stroke-width="2" rx="5" ry="5"/>
+  <text x="150" y="105" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">Frontend</text>
+  
+  <!-- Frontend Components -->
+  <rect x="70" y="120" width="160" height="30" fill="#bbdefb" stroke="#64b5f6" stroke-width="1" rx="3" ry="3"/>
+  <text x="150" y="140" font-family="Arial" font-size="14" text-anchor="middle">HTML/CSS UI</text>
+  
+  <rect x="70" y="160" width="160" height="30" fill="#bbdefb" stroke="#64b5f6" stroke-width="1" rx="3" ry="3"/>
+  <text x="150" y="180" font-family="Arial" font-size="14" text-anchor="middle">JavaScript Interactions</text>
+  
+  <rect x="70" y="200" width="160" height="30" fill="#bbdefb" stroke="#64b5f6" stroke-width="1" rx="3" ry="3"/>
+  <text x="150" y="220" font-family="Arial" font-size="14" text-anchor="middle">Real-time Chat Interface</text>
+  
+  <!-- Backend Box -->
+  <rect x="300" y="80" width="200" height="320" fill="#e8f5e9" stroke="#4caf50" stroke-width="2" rx="5" ry="5"/>
+  <text x="400" y="105" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">Backend</text>
+  
+  <!-- Backend Components -->
+  <rect x="320" y="120" width="160" height="30" fill="#c8e6c9" stroke="#81c784" stroke-width="1" rx="3" ry="3"/>
+  <text x="400" y="140" font-family="Arial" font-size="14" text-anchor="middle">Python Flask/FastAPI</text>
+  
+  <rect x="320" y="160" width="160" height="30" fill="#c8e6c9" stroke="#81c784" stroke-width="1" rx="3" ry="3"/>
+  <text x="400" y="180" font-family="Arial" font-size="14" text-anchor="middle">API Endpoints</text>
+  
+  <rect x="320" y="200" width="160" height="30" fill="#c8e6c9" stroke="#81c784" stroke-width="1" rx="3" ry="3"/>
+  <text x="400" y="220" font-family="Arial" font-size="14" text-anchor="middle">Request Handling</text>
+  
+  <rect x="320" y="240" width="160" height="30" fill="#c8e6c9" stroke="#81c784" stroke-width="1" rx="3" ry="3"/>
+  <text x="400" y="260" font-family="Arial" font-size="14" text-anchor="middle">Session Management</text>
+  
+  <rect x="320" y="280" width="160" height="30" fill="#c8e6c9" stroke="#81c784" stroke-width="1" rx="3" ry="3"/>
+  <text x="400" y="300" font-family="Arial" font-size="14" text-anchor="middle">Context Tracking</text>
+  
+  <rect x="320" y="320" width="160" height="30" fill="#c8e6c9" stroke="#81c784" stroke-width="1" rx="3" ry="3"/>
+  <text x="400" y="340" font-family="Arial" font-size="14" text-anchor="middle">Database Integration</text>
+  
+  <rect x="320" y="360" width="160" height="30" fill="#c8e6c9" stroke="#81c784" stroke-width="1" rx="3" ry="3"/>
+  <text x="400" y="380" font-family="Arial" font-size="14" text-anchor="middle">Authentication</text>
+  
+  <!-- AI Engine Box -->
+  <rect x="550" y="80" width="200" height="240" fill="#fff3e0" stroke="#ff9800" stroke-width="2" rx="5" ry="5"/>
+  <text x="650" y="105" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">AI Engine</text>
+  
+  <!-- AI Components -->
+  <rect x="570" y="120" width="160" height="30" fill="#ffe0b2" stroke="#ffb74d" stroke-width="1" rx="3" ry="3"/>
+  <text x="650" y="140" font-family="Arial" font-size="14" text-anchor="middle">NLP Processing</text>
+  
+  <rect x="570" y="160" width="160" height="30" fill="#ffe0b2" stroke="#ffb74d" stroke-width="1" rx="3" ry="3"/>
+  <text x="650" y="180" font-family="Arial" font-size="14" text-anchor="middle">ML Models</text>
+  
+  <rect x="570" y="200" width="160" height="30" fill="#ffe0b2" stroke="#ffb74d" stroke-width="1" rx="3" ry="3"/>
+  <text x="650" y="220" font-family="Arial" font-size="14" text-anchor="middle">Intent Recognition</text>
+  
+  <rect x="570" y="240" width="160" height="30" fill="#ffe0b2" stroke="#ffb74d" stroke-width="1" rx="3" ry="3"/>
+  <text x="650" y="260" font-family="Arial" font-size="14" text-anchor="middle">Context Analysis</text>
+  
+  <rect x="570" y="280" width="160" height="30" fill="#ffe0b2" stroke="#ffb74d" stroke-width="1" rx="3" ry="3"/>
+  <text x="650" y="300" font-family="Arial" font-size="14" text-anchor="middle">Response Generation</text>
+  
+  <!-- Database -->
+  <rect x="50" y="280" width="200" height="120" fill="#e1f5fe" stroke="#03a9f4" stroke-width="2" rx="5" ry="5"/>
+  <text x="150" y="305" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">Database</text>
+  
+  <rect x="70" y="320" width="160" height="30" fill="#b3e5fc" stroke="#4fc3f7" stroke-width="1" rx="3" ry="3"/>
+  <text x="150" y="340" font-family="Arial" font-size="14" text-anchor="middle">User Data</text>
+  
+  <rect x="70" y="360" width="160" height="30" fill="#b3e5fc" stroke="#4fc3f7" stroke-width="1" rx="3" ry="3"/>
+  <text x="150" y="380" font-family="Arial" font-size="14" text-anchor="middle">Conversation History</text>
+  
+  <!-- Arrows -->
+  <!-- Frontend to Backend -->
+  <path d="M250,160 L300,160" stroke="#757575" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M300,200 L250,200" stroke="#757575" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Backend to AI -->
+  <path d="M500,160 L550,160" stroke="#757575" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M550,240 L500,240" stroke="#757575" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Backend to Database -->
+  <path d="M300,340 L250,340" stroke="#757575" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M250,360 L300,360" stroke="#757575" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Define arrowhead marker -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#757575"/>
+    </marker>
+  </defs>
+  
+  <!-- Deployment -->
+  <rect x="300" y="420" width="200" height="60" fill="#f3e5f5" stroke="#9c27b0" stroke-width="2" rx="5" ry="5"/>
+  <text x="400" y="445" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">Deployment</text>
+  <text x="400" y="465" font-family="Arial" font-size="14" text-anchor="middle">Web Server/Cloud Hosting</text>
+  
+</svg>
